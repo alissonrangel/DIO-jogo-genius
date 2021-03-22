@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background: url('./img/back.jpg');
+    background-position: 50% 45%;
+    background-size: cover;
+}
+
+.main-game{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameoverbox{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 10;
+}
+
+#gameover{
+    height: 600px;
+    width: 600px;
+    background-image: url('./img/gameover.jpg');
+    background-size: cover;
+    background-position: 50% 115%;
+    border-radius: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#mensagem{
+    color: white;
+    text-align: center;
+}
+
+.genius{
+    display: grid;
+    grid-template-areas: 
+        'verde vermelho'
+        'amarelo azul';
+    grid-gap: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+}
+
+.blue{
+    grid-area: azul;
+    background-color: #00f;
+    border-bottom-right-radius: 100%;
+}
+
+.red{
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.green{
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+.yellow{
+    grid-area: amarelo;
+    background-color: orange;
+    border-bottom-left-radius: 100%;
+}
+
+.selected{
+    opacity: 0.4;
+}
