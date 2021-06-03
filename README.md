@@ -11,3 +11,7 @@
 ## jogue no link abaixo
 
 [Jogo Memória](https://www.jogos.alissonescorcio.life/DIO-jogo-memoria/index.html "Jogo Memória")
+
+## conheça nossos jogos feitos como exercícos da DIO
+
+[Jogos](https://www.jogos.alissonescorcio.life/index.html "Jogos")
