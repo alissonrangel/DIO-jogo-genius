@@ -6,7 +6,7 @@
 * tela de background
 * tela de game over
 
-![alt text](https://github.com/alissonrangel/DIO-jogo-space-shooter/blob/main/img/game.png?raw=true)
+![alt text](https://github.com/alissonrangel/DIO-jogo-genius/blob/main/img/game.png?raw=true)
 
 ## jogue no link abaixo
 
